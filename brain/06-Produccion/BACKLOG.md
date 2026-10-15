@@ -11,23 +11,25 @@ Los [GitHub Issues](https://github.com/LuisRz1/nasa-orbita/issues) son la fuente
 
 | ID | Resultado | Fase | Depende de |
 | --- | --- | --- | --- |
-| PREP-01 | Revisar plan y confirmar responsables. | Preparación | Publicación documental. |
-| PREP-02 | Completar y contrastar investigación de referentes. | Preparación | Dossier inicial. |
-| PREP-03 | Revisar enunciado completo y matriz. | Preparación, desde 28/10 | Publicación oficial. |
-| PREP-04 | Registrar guías, sede y ventana autorizada. | Preparación, 13/11 | Guías y horario de la sede. |
-| JAM-01 | Base técnica y escena mínima. | Hackathon | PREP-03, PREP-04 y apertura autorizada. |
-| JAM-02 | Movimiento isométrico e interacción. | Hackathon | JAM-01. |
-| JAM-03 | Planificador, recursos e informe. | Hackathon | JAM-01. |
-| JAM-04 | Región lunar, seis lugares y hallazgos. | Hackathon | JAM-02, JAM-03. |
-| JAM-05 | LUMA escrito y contexto de misión. | Hackathon | JAM-02, JAM-03. |
-| JAM-06 | Guardado, localización y accesibilidad. | Hackathon | JAM-03, JAM-04, JAM-05. |
-| JAM-07 | QA, publicación y recorrido de jurado. | Hackathon | JAM-06. |
-| OPT-01 | Conversación libre gratuita opcional. | Hackathon o posterior | JAM-07 y acceso gratuito verificado. |
-| EXP-01 | Producción de campaña por capítulos. | Posterior | Demo aceptada y revisión del equipo. |
+| [PREP-01 · #1](https://github.com/LuisRz1/nasa-orbita/issues/1) | Revisar plan y confirmar responsables. | Preparación | Publicación documental. |
+| [PREP-02 · #2](https://github.com/LuisRz1/nasa-orbita/issues/2) | Completar y contrastar investigación de referentes. | Preparación | Dossier inicial. |
+| [PREP-03 · #3](https://github.com/LuisRz1/nasa-orbita/issues/3) | Revisar enunciado completo y matriz. | Preparación, desde 28/10 | Publicación oficial. |
+| [PREP-04 · #4](https://github.com/LuisRz1/nasa-orbita/issues/4) | Registrar guías, sede y ventana autorizada. | Preparación, 13/11 | PREP-03, guías y horario de la sede. |
+| [JAM-01 · #5](https://github.com/LuisRz1/nasa-orbita/issues/5) | Base técnica y escena mínima. | Hackathon | PREP-03, PREP-04 y apertura autorizada. |
+| [JAM-02 · #6](https://github.com/LuisRz1/nasa-orbita/issues/6) | Movimiento isométrico e interacción. | Hackathon | JAM-01. |
+| [JAM-03 · #7](https://github.com/LuisRz1/nasa-orbita/issues/7) | Planificador, recursos e informe. | Hackathon | JAM-01. |
+| [JAM-04 · #8](https://github.com/LuisRz1/nasa-orbita/issues/8) | Región lunar, seis lugares y hallazgos. | Hackathon | JAM-02, JAM-03. |
+| [JAM-05 · #9](https://github.com/LuisRz1/nasa-orbita/issues/9) | LUMA escrito y contexto de misión. | Hackathon | JAM-02, JAM-03. |
+| [JAM-06 · #10](https://github.com/LuisRz1/nasa-orbita/issues/10) | Guardado, localización y accesibilidad. | Hackathon | JAM-03, JAM-04, JAM-05. |
+| [JAM-07 · #11](https://github.com/LuisRz1/nasa-orbita/issues/11) | QA, publicación y recorrido de jurado. | Hackathon | JAM-06. |
+| [OPT-01 · #12](https://github.com/LuisRz1/nasa-orbita/issues/12) | Conversación libre gratuita opcional. | Hackathon o posterior | JAM-07 y acceso gratuito verificado. |
+| [EXP-01 · #13](https://github.com/LuisRz1/nasa-orbita/issues/13) | Producción de campaña por capítulos. | Posterior | Demo aceptada y revisión del equipo. |
 
 ## Enlaces operativos
 
-Los enlaces individuales a Issues se incorporan al completar la publicación inicial. Ninguna tarea de implementación puede empezar antes de la apertura autorizada, aunque su Issue ya exista.
+Los 13 Issues están publicados con dependencias y aceptación. Los responsables no se han asignado todavía. Ninguna tarea de implementación puede empezar antes de la apertura autorizada, aunque su Issue ya exista.
+
+Etiquetas: fase:preparacion, fase:hackathon, fase:expansion, bloqueado:ventana y opcional. La etiqueta de bloqueo temporal se retira solo después de registrar la apertura y cumplir las dependencias.
 
 ## Cierre
 

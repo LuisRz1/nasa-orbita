@@ -20,6 +20,8 @@ El propietario pidió publicar el plan y el cerebro para compartirlos. Esta entr
 - Especificaciones de producto, diseño, arquitectura, ciencia, arte y calidad.
 - Decisiones del propietario y ADR.
 - Instrucciones para agentes, plantillas y secuencia de tareas.
+- [Repositorio público](https://github.com/LuisRz1/nasa-orbita), con la rama main publicada.
+- [13 Issues](https://github.com/LuisRz1/nasa-orbita/issues) con dependencias, aceptación y etiquetas por fase.
 
 ## Evidencia y límites
 
@@ -28,6 +30,8 @@ El propietario pidió publicar el plan y el cerebro para compartirlos. Esta entr
 - FAQ oficial revisada el 14 de octubre: fechas globales y restricción de trabajo previo siguen publicadas.
 - No hay dependencias del juego, assets, datasets procesados, pruebas de ejecución ni demo.
 - Las versiones técnicas son una base investigada; no existe todavía un lockfile.
+- Publicación inicial confirmada en el commit ec0edf1; consultar Git para las actualizaciones posteriores.
+- Revisión documental: 45 archivos, 40 documentos Markdown, 32 notas de vault, 63 enlaces locales válidos e IDs de notas únicos.
 - El estado de publicación y los commits se comprueban en el historial y en la bitácora de esta entrega.
 
 ## Próximo trabajo permitido

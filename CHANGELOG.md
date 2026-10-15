@@ -6,6 +6,7 @@
 - Creación del cerebro compatible con Obsidian y GitHub.
 - Registro de decisiones del propietario, arquitectura, alcance, fuentes y criterios de aceptación.
 - Instrucciones para agentes, tareas y continuidad del trabajo.
+- Repositorio público y 13 Issues con aceptación, dependencias y etiquetas por fase.
 - Separación entre la demo de hackathon y la campaña posterior.
 
 No hay código del juego, assets de producción, dependencias instaladas ni despliegue jugable.
