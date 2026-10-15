@@ -1,6 +1,6 @@
-# Plan del proyecto: Órbita, Cartógrafos del futuro
+# Plan del proyecto: Órbita, La última luz
 
-Versión 1.1 · Decisiones acordadas y propuesta editorial detallada · Actualización documental: 14 de octubre de 2026.
+Versión 1.2 · Decisiones acordadas y propuesta editorial detallada · Actualización documental: 14 de octubre de 2026.
 
 ## 1. Resumen y decisiones acordadas
 
@@ -18,7 +18,9 @@ El horario concreto y las condiciones de la sede deberán constar antes de inici
 
 ### Experiencia principal
 
-Dirigir una expedición científica mientras se controla al astronauta y se recorren regiones con identidad propia.
+Reconstruir la ruta de la expedición desaparecida Aurora, rescatar a la hermana del protagonista y traer a los supervivientes a la Tierra. El jugador pilota una nave de apoyo en una búsqueda autorizada, controla al astronauta y usa observaciones y recursos para abrir el camino.
+
+Una cápsula recuperada cerca de la Tierra trae a LUMA y registros dañados. La Luna conserva una copia parcial; Marte guarda el motivo del desvío y una prueba fechada de supervivencia. La última expedición permite localizar y evacuar a Aurora. Ver [historia completa y desenlace — SPOILERS](brain/02-Diseno/HISTORIA-PRINCIPAL.md).
 
 1. **Preparar:** escoger objetivo, vehículo de lanzamiento, módulos, instrumentos y reservas.
 2. **Viajar:** seleccionar ruta y reservas, pilotar maniobras y aproximaciones 2.5D y acelerar los cruceros largos.
@@ -31,14 +33,16 @@ Dirigir una expedición científica mientras se controla al astronauta y se reco
 
 | Capítulo | Experiencia |
 | --- | --- |
-| [1. Primera luz — órbita](brain/02-Diseno/CAPITULOS/C1-PRIMERA-LUZ.md) | Planificar, lanzar, acoplar, conocer a LUMA, hacer una EVA y viajar a la Luna. |
-| [2. Bajo otro cielo — Luna](brain/02-Diseno/CAPITULOS/C2-BAJO-OTRO-CIELO.md) | Alunizar, instalar refugio, explorar geología y sombra, reparar relé y regresar. |
-| [3. El mundo rojo — Marte](brain/02-Diseno/CAPITULOS/C3-EL-MUNDO-ROJO.md) | Crucero interplanetario, descenso, hábitat, evidencias, contingencia y ascenso. |
-| [4. Lo que queda de la luz — Bennu; spoilers](brain/02-Diseno/CAPITULOS/C4-LO-QUE-QUEDA.md) | Preparar expedición, hacer contacto anclado, muestrear, extraer y regresar al epílogo. |
+| [1. Primera luz — órbita](brain/02-Diseno/CAPITULOS/C1-PRIMERA-LUZ.md) | Preparar nave, validar cápsula de Aurora, conocer a LUMA y recuperar mediante EVA la pista del archivo lunar. |
+| [2. Bajo otro cielo — Luna](brain/02-Diseno/CAPITULOS/C2-BAJO-OTRO-CIELO.md) | Alunizar, instalar refugio, recuperar tres piezas del registro y reparar el relé que permite confirmar la escala marciana. |
+| [3. El mundo rojo — Marte](brain/02-Diseno/CAPITULOS/C3-EL-MUNDO-ROJO.md) | Reactivar hábitat, investigar el desvío, autenticar un mensaje de supervivientes y reconfigurar la nave de rescate. |
+| [4. Lo que queda de la luz — Bennu; spoilers](brain/02-Diseno/CAPITULOS/C4-LO-QUE-QUEDA.md) | Localizar a la hermana y tripulación, evacuar, vivir el sacrificio de LUMA y completar el regreso terrestre. |
 
 La campaña completa tendrá como presupuesto inicial **18 regiones, 24 misiones principales, 32 actividades secundarias y 120 descubrimientos coleccionables**. Son objetivos de producción y duración, todavía sin contenido implementado.
 
-Cada capítulo tiene seis misiones obligatorias con ID, acción, aceptación y desbloqueo. El diario muestra sus requisitos; secundarias, colecciones y puntuaciones de afecto no bloquean la historia. Ver [distribución y condiciones](brain/02-Diseno/MUNDO-Y-CAMPANA.md).
+Cada capítulo tiene seis misiones obligatorias con ID, acción, aceptación y aporte al rescate. El diario muestra sus requisitos; secundarias, colecciones y puntuaciones de afecto no bloquean la historia. Ver [distribución y condiciones](brain/02-Diseno/MUNDO-Y-CAMPANA.md).
+
+Ruta narrativa: Tierra → Luna → Marte → Bennu → Tierra. El reabastecimiento previo al rescate ocurre en el nodo marciano. Las ventanas y la autonomía del refugio aún deben validarse; no se han calculado itinerarios reales.
 
 Los escenarios combinarán lugares diseñados manualmente con generación procedural limitada para terreno secundario y variaciones de expediciones. Objetivos, relatos y descubrimientos importantes tendrán diseño individual.
 
@@ -57,6 +61,8 @@ Los escenarios combinarán lugares diseñados manualmente con generación proced
 Animal extraterrestre ficticio de cuerpo compacto y cúbico. Se comunica con sonidos y gestos mediante un traductor ficticio, acompaña al jugador y necesita protección ambiental. El rover de superficie es un equipo distinto.
 
 Su paleta recorre **blanco-dorado → naranja → rojo → blanco azulado**, inspirada en una estrella similar al Sol. La conducta muestra desgaste progresivo. Es una comparación simbólica, sin temperatura estelar ni supernova.
+
+**SPOILERS de campaña:** LUMA llegó en la cápsula de Aurora y forma un vínculo mediante rutinas, cuidados y recuerdos. El deterioro avanza por hitos, sin castigar la exploración opcional. Su sacrificio salva al protagonista cuando los supervivientes ya están a bordo; la muerte es definitiva y el epílogo permite seguir explorando sin él.
 
 Los diálogos escritos cubren la historia; la IA online es opcional. Ver [LUMA](brain/02-Diseno/LUMA.md) y [arco narrativo con SPOILERS](brain/02-Diseno/ARCO-LUMA-SPOILERS.md).
 
@@ -112,7 +118,7 @@ La arquitectura será un **monolito modular**:
 - **Persistencia:** partidas versionadas, respaldo y migraciones.
 - **Servidor opcional:** conversación libre; el juego se ejecuta en el navegador.
 
-Los contratos principales serán MissionDefinition, ChapterDefinition, RegionDefinition, CollectibleDefinition, DialogueNode, ScienceSource y SaveGame, con IDs estables. Se añaden estado narrativo del compañero, vuelo local y tramos de crucero separados.
+Los contratos principales serán MissionDefinition, ChapterDefinition, RegionDefinition, CollectibleDefinition, DialogueNode, ScienceSource y SaveGame, con IDs estables. Se añaden estado narrativo del compañero, pruebas validadas de Aurora, manifiesto de rescate, vuelo local y tramos de crucero separados. Recoger un registro dañado no equivale a haber confirmado su contenido.
 
 El [pilotaje](brain/02-Diseno/VIAJE-ESPACIAL.md) usa posición y velocidad relativas. Los cruceros contabilizan tiempo físico y recursos por tramo, sin esperar días o meses reales. Ver [ADR 004](brain/03-Arquitectura/ADR/ADR-004.md).
 
@@ -154,7 +160,7 @@ Código propio bajo MIT; documentación y recursos creativos originales bajo CC 
 | 14–15 de noviembre | Construir y publicar la demo dentro del periodo permitido. |
 | Expansión posterior | Completar Luna, Marte, órbita y asteroide por hitos de calidad. |
 
-La demo tendrá **15–25 minutos**, con presentación de unos cinco minutos: planificación, tramo acelerado, aproximación pilotada breve, región lunar compacta de seis lugares, LUMA, incidencia, regreso e informe. Es un fragmento del capítulo 2 y no revela el cierre.
+La demo tendrá **15–25 minutos**, con presentación de unos cinco minutos: planificación, tramo acelerado, aproximación pilotada breve, región lunar compacta de seis lugares, LUMA, incidencia, regreso e informe. Recupera una parte del rastro de Aurora y cierra ese objetivo local. Es un fragmento del capítulo 2; no completa el capítulo ni revela el cierre de la campaña.
 
 Reparto propuesto: propietario en programación e integración; segunda persona en arte, mapas e interfaz; tercera persona, si participa, en ciencia, narrativa, pruebas y presentación. Con dos personas, esta última responsabilidad se comparte.
 

@@ -29,11 +29,15 @@ tags: [orbita, producto]
 | Equipo | 2–3 personas, con ayuda de agentes. |
 | Documentación | Cerebro de Obsidian específico para continuar el trabajo. |
 | Acción del 14 de octubre | Publicar el plan y el cerebro en GitHub para compartirlos. |
+| Objetivo narrativo | Buscar a Aurora, rescatar a la hermana del protagonista y traer a los supervivientes a la Tierra. |
+| Publicación de historia | Subir la historia principal, el arco de LUMA y lo que se hará en cada misión. |
 
-Valores fijados por el plan: un jugador, español e inglés, guardado local, nombre inicial **Órbita: Cartógrafos del futuro** y compañero **LUMA**.
+Valores fijados por el plan: un jugador, español e inglés, guardado local y compañero **LUMA**. El título de trabajo pasa de **Órbita: Cartógrafos del futuro** a **Órbita: La última luz** en la propuesta narrativa que el propietario pidió publicar.
 
 Son metas de producción, pendientes de validación: 18 regiones, 24 misiones principales, 32 secundarias, 120 hallazgos y presupuestos de rendimiento. No convertirlos en resultados ya logrados.
 
 Seis misiones por capítulo, Bennu y los objetivos concretos son la propuesta editorial desarrollada a partir de la solicitud. Ver [campaña](../02-Diseno/MUNDO-Y-CAMPANA.md). La paleta azul/verde/violeta/ámbar propuesta anteriormente queda sustituida por blanco-dorado/naranja/rojo/blanco azulado.
+
+La [historia principal](../02-Diseno/HISTORIA-PRINCIPAL.md) documenta la propuesta de Aurora que el propietario pidió subir: cápsula con LUMA, registros lunares, investigación en Marte, reencuentro, evacuación, sacrificio y regreso. Los detalles del contenedor, manifiesto y fallo técnico son desarrollo editorial del plan; no requisitos oficiales de NASA ni citas del propietario. La escala terrestre intermedia de la revisión 1.1 queda sustituida por reabastecimiento en Marte.
 
 Cambiar una decisión de producto requiere registrarlo aquí y actualizar el plan, alcance y tareas afectados. No volver a solicitar confirmación para la publicación pública que ya está autorizada.

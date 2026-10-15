@@ -15,11 +15,15 @@ Versión de esquema y contenido; perfil local; progreso de misiones; recursos es
 
 Añadir capítulo y principales, etapas procesadas, condición de vida y paleta de LUMA; modo de control; nave, tramo e hitos de crucero.
 
+Persistir piezas recuperadas y evidencias validadas de Aurora por separado, destinos revelados, manifiesto de supervivientes y estado de cada persona: localizada, embarcada y recibida. Conservar el plan de capacidad y reservas de la tripulación ampliada. Ver [contratos](CONTRATOS.md).
+
 No guardar referencias de objetos Phaser, nodos DOM, funciones, credenciales ni una dependencia del historial completo de chat.
 
 ## Escritura
 
 Guardar al completar hitos y al regresar, con escrituras transaccionales. El progreso visible confirmado debe corresponder a una escritura recuperable.
+
+Autenticar una prueba y revelar su destino forman un mismo hito consistente. Embarcar o recibir a una persona actualiza su ID una vez. Los puntos de control de C4-M04, M05 y M06 conservan por separado evacuación, despedida y recepción terrestre para reanudar sin adelantar el resultado.
 
 Al ocultar la pestaña, pausar la simulación y solicitar guardado cuando sea posible. No depender únicamente del cierre de la pestaña para persistir.
 
@@ -34,3 +38,5 @@ Si la cuota de almacenamiento o permisos impiden escribir, informar y ofrecer ex
 Recargar en un hito, repetir una entrega y exportar/importar conserva el estado sin premios duplicados. Sin red se puede completar la región ya cargada; una región no descargada debe comunicar su indisponibilidad.
 
 Reanudar un crucero no vuelve a consumir suministros de un tramo ya resuelto. El marco de coordenadas se conserva al cambiar de modo. Cargar tras un cierre narrativo no revierte resultados ni repite escenas. La exploración posterior funciona con herramientas del jugador.
+
+Recargar con una pieza de AUR-E03 o AUR-E05 pendiente no revela sus conclusiones. Restaurar antes y después de embarcar conserva el mismo conjunto de supervivientes y sus reservas. La recepción de datos o muestras no marca por error a una persona como rescatada.

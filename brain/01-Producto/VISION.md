@@ -9,7 +9,9 @@ tags: [orbita, vision]
 
 Un juego donde explorar el espacio y aprender a preparar una misión sean parte de la misma aventura.
 
-El jugador dirige expediciones de un programa científico de futuro cercano. Cada región contiene preguntas que se responden observando, escogiendo instrumentos y aceptando compromisos entre ciencia y seguridad.
+El jugador busca a Aurora, la expedición desaparecida en la que viajaba su hermana. Una cápsula con el animal extraterrestre LUMA y registros dañados permite reabrir la búsqueda. El objetivo es encontrar a los supervivientes y traerlos a la Tierra.
+
+En este programa de futuro cercano, cada región contiene preguntas que se responden observando, escogiendo instrumentos y aceptando compromisos entre ciencia y seguridad. Las respuestas acercan el rescate: una pista, una ruta o una capacidad. Ver [historia principal — spoilers](../02-Diseno/HISTORIA-PRINCIPAL.md).
 
 ## Público
 

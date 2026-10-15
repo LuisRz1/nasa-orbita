@@ -23,6 +23,8 @@ Abortar o fallar desemboca en un informe que conserva conocimiento registrado y 
 
 La fase de validación explica por qué una configuración es viable o inviable. El jugador ve el efecto de sus cambios antes de salir.
 
+El objetivo local de la demo es recuperar y entregar un registro parcial de Aurora. Los instrumentos y las reservas se eligen para alcanzar ese lugar y resolver el enlace averiado. La incidencia y el informe muestran cómo la decisión de carga afectó la operación; no completan el rescate de toda la campaña.
+
 ## Operación
 
 Desplazarse, observar, escanear, interactuar, recoger y reparar. Cada lugar de interés tiene una pregunta, una acción y un resultado. Las conversaciones de historia y los menús principales pausan la simulación de riesgo.
@@ -42,3 +44,11 @@ Los capítulos 1 y 4 son secuenciales. En Luna M03–M05 admiten orden libre tra
 Ver [campaña](MUNDO-Y-CAMPANA.md) y [pilotaje y crucero](VIAJE-ESPACIAL.md). Una llegada no se completa únicamente por una animación.
 
 Los fallos recuperables permiten reintento o aborto. Las asistencias no bloquean historia. El estado narrativo de LUMA depende de hitos escritos, no del rendimiento o de una avería del servicio de IA.
+
+## Aporte a la historia y pruebas de cierre
+
+Toda principal debe revelar una pista, abrir una ruta o aportar capacidad al rescate de Aurora. Las fichas detallan ese aporte; la [historia principal — spoilers](HISTORIA-PRINCIPAL.md) fija AUR-E01–AUR-E07 y el orden de revelación.
+
+Un registro puede estar localizado, recuperado y pendiente de autenticación. Su texto parcial no confirma el destino siguiente. El informe solo valida una evidencia cuando están reunidas sus piezas y requisitos, aunque las misiones de campo se hayan hecho en otro orden.
+
+El plan de evacuación valida plazas, consumibles, protección y retorno para las personas del manifiesto, además de quienes ya viajan en la nave. C4-M04 exige a todos los supervivientes a bordo. C4-M06 exige su recepción terrestre; las muestras y una animación de llegada no sustituyen ese resultado.

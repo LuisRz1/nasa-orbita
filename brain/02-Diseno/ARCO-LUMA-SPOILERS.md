@@ -13,24 +13,28 @@ Decisiones del propietario: criatura extraterrestre viva, traductor ficticio, de
 
 Construir apego mediante conducta y experiencias compartidas. Conocerlo en momentos cotidianos, además de verlo ayudar en emergencias.
 
+La [historia principal de Aurora](HISTORIA-PRINCIPAL.md) da sentido al viaje: rescatar a la hermana del protagonista y a los supervivientes. LUMA llegó en su cápsula de emergencia. Fue compañero de esa tripulación antes de vincularse con el jugador; reconoce pertenencias y comparte recuerdos, sin saber automáticamente la ruta perdida.
+
 Su biología ficticia presenta un desgaste progresivo de causa desconocida para los personajes. Los cuidados alivian su malestar y permiten momentos mejores; no ofrecen una cura secreta. El color estelar no representa un diagnóstico médico.
 
 ## Capítulos
 
 | Etapa | Vínculo y reconocimiento | Preparación narrativa |
 | --- | --- | --- |
-| Primera luz | Explora la estación, aprende rutinas y acepta al jugador. | Establecer sonidos, lugar de descanso e interacción cotidiana. |
-| Bajo otro cielo | Se detiene más, pide compañía y admite pequeñas molestias. | Mostrar su capacidad para recorrer espacios estrechos e interactuar con mecanismos sencillos. |
-| El mundo rojo | Ambos reconocen el deterioro y buscan aliviarlo. | Dar valor a cuidarlo, compartir hallazgos y registrar recuerdos. |
-| Lo que queda de la luz | Está muy debilitado y entiende sus límites. | Dar espacio a decisiones personales sin prometer curación. |
+| Primera luz | Sale del compartimento protegido, explora la estación y acepta al jugador. | Reconoce un objeto de la hermana; establecer sonidos, lugar de descanso e interacción cotidiana. |
+| Bajo otro cielo | Se detiene más, pide compañía y admite pequeñas molestias. | Mostrar en condiciones seguras su capacidad para recorrer espacios estrechos con protección e interactuar con mecanismos sencillos. |
+| El mundo rojo | Ambos reconocen el deterioro y buscan aliviarlo. | Los registros explican su llegada a Aurora; dar valor a cuidarlo, compartir hallazgos y registrar recuerdos. |
+| Lo que queda de la luz | Está muy debilitado, reconoce a la hermana y entiende sus límites. | Reencuentro antes de la evacuación; dar espacio a su voluntad sin prometer curación. |
 
 La paleta pasa de blanco-dorado a naranja, rojo y blanco azulado. El último brillo es suave; el apagado es biológico y simbólico, no el enfriamiento instantáneo de una enana blanca.
 
 ## Sacrificio: C4-M05
 
-En una instalación de servicio ficticia junto al lugar de extracción en Bennu, una avería bloquea el retorno del jugador. Una liberación mecánica queda al otro lado de un conducto estrecho.
+En C4-M03 el jugador encuentra viva a su hermana y verifica a los demás supervivientes. En M04 todos los rescatados quedan a bordo, con soporte de vida y reservas comprobados. LUMA participa en el reencuentro antes del incidente final.
 
-LUMA puede recorrerlo con su protección ambiental. El jugador ha visto antes esa capacidad. Sabiendo lo que le costará, decide liberar el mecanismo y permitir el rescate.
+En una instalación de servicio ficticia junto al lugar de extracción en Bennu, el jugador realiza la última desconexión. Una avería del mecanismo lo aísla en el lado exterior y bloquea su retorno. Una liberación mecánica queda al otro lado de un conducto estrecho. El traje humano no cabe y las herramientas disponibles no alcanzan desde esa posición; no se eliminan arbitrariamente mejoras del inventario para forzar el incidente.
+
+LUMA puede recorrerlo con su protección ambiental. El jugador ha visto antes esa capacidad. Consciente de sus límites y del esfuerzo que requiere, decide liberar el mecanismo y salvar al protagonista. Los supervivientes ya rescatados permanecen a salvo.
 
 El jugador puede recogerlo y llevarlo al compartimento seguro. El esfuerzo agrava el desgaste de forma irreversible. La despedida ocurre juntos, con pocas palabras, presencia física y silencio.
 
@@ -42,7 +46,9 @@ La preparación técnica conserva valor: suministros y comprobaciones permiten l
 
 La muerte es definitiva. No hay copia consciente, resurrección ni conversación nueva que imite una continuación de LUMA.
 
-En C4-M06 el jugador vuelve a la Tierra, entrega resultados y vive el epílogo. Puede seguir explorando con sus herramientas. LUMA tiene un lugar de recuerdo en la nave; fotos y grabaciones se identifican como archivos.
+En C4-M06 el jugador vuelve a la Tierra con su hermana y los demás supervivientes, completa su recepción y entrega resultados. El objetivo principal se cumple. La hermana participa en el regreso y en el recuerdo de quien los acompañó.
+
+Puede seguir explorando con sus herramientas mediante nuevas expediciones. LUMA tiene un lugar de recuerdo en la nave; fotos y grabaciones se identifican como archivos.
 
 ## Reglas para implementación futura
 

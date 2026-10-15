@@ -2,7 +2,7 @@
 
 Salvo indicación expresa, la documentación, narrativa y recursos creativos originales de este repositorio se ofrecen bajo **Creative Commons Attribution 4.0 International — CC BY 4.0**.
 
-Autoría para atribución: **LuisRz1 y colaboradores de Órbita: Cartógrafos del futuro**. Incluye un enlace al repositorio y señala las modificaciones realizadas.
+Autoría para atribución: **LuisRz1 y colaboradores de Órbita: La última luz**. Incluye un enlace al repositorio y señala las modificaciones realizadas.
 
 - [Resumen de la licencia](https://creativecommons.org/licenses/by/4.0/)
 - [Texto legal](https://creativecommons.org/licenses/by/4.0/legalcode)

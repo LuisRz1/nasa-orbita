@@ -11,7 +11,9 @@ tags: [orbita, companero, narrativa]
 
 La imagen del propietario es referencia de formas y expresividad, no un asset incorporado. El diseño será propio y conservará su silueta entre paletas.
 
-Se expresa con sonidos, gestos y conducta. Un traductor ficticio convierte parte de esas señales en frases. El jugador lo conoce durante el prólogo orbital y aprende a reconocerlo antes de depender de la traducción.
+Se expresa con sonidos, gestos y conducta. Un traductor ficticio convierte parte de esas señales en frases. El jugador lo conoce durante el prólogo orbital, dentro de la cápsula recuperada de Aurora, y aprende a reconocerlo antes de depender de la traducción.
+
+Viajó con la expedición de la hermana del protagonista. Reconoce personas y objetos, y aporta recuerdos cotidianos que dan contexto a la búsqueda. Las coordenadas y las pruebas proceden de registros y observaciones; LUMA no reemplaza el trabajo del jugador. Ver [historia principal — SPOILERS](HISTORIA-PRINCIPAL.md).
 
 LUMA acompaña, juega, busca cercanía, descansa y recuerda experiencias compartidas. Usa protección ambiental durante EVA y en superficie. Su origen no implica inmunidad al vacío o a la radiación. Las funciones científicas y de navegación pertenecen al equipo del jugador y la nave.
 

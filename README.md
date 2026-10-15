@@ -1,6 +1,8 @@
-# Órbita: Cartógrafos del futuro
+# Órbita: La última luz
 
 Juego de exploración espacial para navegador, con pixel art 2.5D, pilotaje, exploración planetaria y un animal extraterrestre acompañante llamado **LUMA**.
+
+Una cápsula de la expedición desaparecida Aurora regresa con LUMA y registros dañados. Tu hermana viajaba en esa expedición. Debes reconstruir su ruta, encontrar a los supervivientes y traerlos a la Tierra.
 
 **Estado: preparación documental. Todavía no existe una versión jugable.** El objetivo es construir una demo durante NASA Space Apps 2026 y ampliar después el juego hasta una campaña de 12–20 horas.
 
@@ -10,6 +12,8 @@ Juego de exploración espacial para navegador, con pixel art 2.5D, pilotaje, exp
 | --- | --- |
 | Compartir la propuesta completa | [Plan del proyecto](PLAN.md) |
 | Ver capítulos, misiones y requisitos | [Campaña](brain/02-Diseno/MUNDO-Y-CAMPANA.md) |
+| Leer la historia completa y el desenlace | [Historia principal — SPOILERS](brain/02-Diseno/HISTORIA-PRINCIPAL.md) |
+| Conocer el vínculo y el final de LUMA | [Arco de LUMA — SPOILERS](brain/02-Diseno/ARCO-LUMA-SPOILERS.md) |
 | Conocer el pilotaje y los trayectos | [Viaje espacial](brain/02-Diseno/VIAJE-ESPACIAL.md) |
 | Recorrer el cerebro del proyecto | [Inicio del vault](brain/00-Inicio/INICIO.md) |
 | Saber qué está hecho y qué sigue | [Estado actual](brain/00-Inicio/ESTADO-ACTUAL.md) |
@@ -21,7 +25,7 @@ Juego de exploración espacial para navegador, con pixel art 2.5D, pilotaje, exp
 
 Preparar una misión → viajar → explorar → tomar decisiones → regresar → entender los resultados → desbloquear nuevas expediciones.
 
-La campaña recorrerá órbita terrestre, Luna, Marte y Bennu con **cuatro capítulos y 24 misiones principales**. El astronauta se verá completo en vista isométrica. Habrá muestras, observaciones, registros históricos, mejoras y conversaciones reactivas.
+La campaña recorrerá órbita terrestre, Luna, Marte y un asteroide con **cuatro capítulos y 24 misiones principales**. Cada misión revela una pista, abre una ruta o permite rescatar a Aurora. Las fichas especifican acciones, pruebas de cierre y desbloqueos. El astronauta se verá completo en vista isométrica. Habrá muestras, observaciones, registros históricos, mejoras y conversaciones reactivas.
 
 Controlarás maniobras, aproximaciones y acoplamientos en 2.5D. Los cruceros largos tendrán planificación y tiempo acelerado. Cada capítulo muestra qué objetivos hacen falta para avanzar.
 

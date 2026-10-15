@@ -2,7 +2,7 @@
 
 ## Estado y autorización
 
-Este repositorio contiene investigación y planificación de **Órbita: Cartógrafos del futuro**. El propietario eligió conservar la elegibilidad de NASA Space Apps 2026.
+Este repositorio contiene investigación y planificación de **Órbita: La última luz**. El propietario eligió conservar la elegibilidad de NASA Space Apps 2026.
 
 **No implementar el juego, producir assets del reto, descargar/procesar datasets para la solución ni desplegar una versión jugable antes del inicio autorizado de la hackathon.** Tampoco usar ramas auxiliares para adelantar ese trabajo. Esta restricción deriva de la decisión expresa del propietario y de la FAQ enlazada en [requisitos NASA](brain/04-Ciencia/REQUISITOS-NASA.md).
 
@@ -26,6 +26,8 @@ La fecha global es 14–15 de noviembre de 2026. El horario y sede exactos aún 
 - Cambios de motor, persistencia, alcance, costes o contratos requieren actualizar el ADR y la especificación afectados.
 - Las versiones y disponibilidad de servicios se verifican antes de instalar. No instalar herramientas globales si basta una dependencia local o portable.
 - LUMA es un animal extraterrestre con traductor, no un rover. Leer su especificación y, para narrativa/guardado/QA, el arco con spoilers.
+- El objetivo principal es rescatar a Aurora, incluida la hermana del protagonista, y volver con sus supervivientes. Leer la [historia principal](brain/02-Diseno/HISTORIA-PRINCIPAL.md) antes de cambiar misiones o revelaciones. La ruta reabastece en Marte y vuelve a la Tierra después del rescate.
+- Preservar la cadena AUR-E01–AUR-E07: recogido y validado son estados distintos; la IA y las conversaciones no revelan pruebas futuras. La extracción exige el manifiesto completo y reservas para el retorno.
 - Respetar cuatro capítulos de seis principales y el modelo de pilotaje local con crucero acelerado. Los opcionales no bloquean avanzar.
 - No contratar servicios, comprar créditos, activar recargas ni añadir cobros. La IA online es opcional y el presupuesto autorizado de pagos es cero.
 - No publicar claves, tokens, partidas personales, conversaciones completas ni configuraciones privadas en este repositorio público.

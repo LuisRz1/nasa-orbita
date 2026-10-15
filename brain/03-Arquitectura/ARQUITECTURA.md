@@ -31,7 +31,7 @@ La simulación usa un paso fijo, desacoplado del frame gráfico. Renderizado iso
 
 Vuelo local, crucero y superficie tienen estados y marcos separados. El crucero avanza por tramos, sin integrar días de física local. Ver [ADR 004](ADR/ADR-004.md).
 
-El director de campaña verifica objetivos y cierre; el director narrativo aplica los hitos escritos de LUMA. La generación procedural y la IA no los sustituyen.
+El director de campaña verifica objetivos, pruebas de Aurora, manifiesto y cierre; el director narrativo aplica revelaciones y los hitos escritos de LUMA. La generación procedural y la IA no los sustituyen. Las vistas de conocimiento usan únicamente evidencia ya validada para evitar adelantar destinos o acontecimientos.
 
 Zustand expone el estado de interfaz y lecturas derivadas; no se propaga un render React por cada objeto o frame de Phaser.
 

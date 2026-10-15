@@ -30,6 +30,7 @@ tags: [orbita, pruebas]
 | Ciencia | Datos consultables y simplificaciones reconocibles. |
 | Pilotaje | Frenar respecto al objetivo, acoplar y reintentar con asistencia visible. |
 | Crucero | Acelerar, pausar y reanudar sin duplicar consumo de recursos. |
+| Historia local | Recuperar un registro parcial de Aurora, reparar el enlace y entregarlo cierra la demo; no declara el rescate global ni completa el capítulo. |
 
 Vitest comprobará reglas y persistencia relevantes. Playwright comprobará recorridos de usuario y fallos de red. No escribir pruebas que solo repitan la implementación.
 
@@ -46,5 +47,18 @@ Jugadores nuevos deben probar orientación, legibilidad, progresión, repetició
 Comprobar las 24 principales y sus dependencias, las cuatro condiciones de cierre y la libertad de orden en Luna/Marte. No exigir opcionales para pasar.
 
 Verificar cuatro paletas de LUMA con señales accesibles, traducción escrita sin red, ausencia de spoilers en respuestas y persistencia de sus acontecimientos. La exploración posterior no depende de su presencia o chat.
+
+### Narrativa y rescate — spoilers
+
+- Las 24 principales tienen acción, condición de cierre y aporte a una pista, ruta o capacidad de rescate.
+- La cadena AUR-E01–AUR-E07 coincide con la [historia principal](../02-Diseno/HISTORIA-PRINCIPAL.md). Una pieza recogida sin autenticar no abre la revelación siguiente.
+- Probar las seis permutaciones de C2-M03/M04/M05 y ambos órdenes de C3-M04/M05. El informe final revela los mismos hechos; antes no aparecen conclusiones futuras en diario, diálogos o IA.
+- La cápsula prueba un envío de supervivientes en el pasado; el mensaje marciano conserva fecha; la presencia viva se confirma al llegar. El juego distingue esos niveles de certeza.
+- C3-M06 y C4-M01 rechazan una carga sin plazas, soporte de vida o reservas suficientes para los supervivientes y quienes ya viajan. La logística sale de Marte y regresa a Tierra después de la extracción.
+- C4-M03 verifica a la hermana y al manifiesto completo; M04 no cierra con alguien fuera de la nave. Una lista vacía no acredita éxito.
+- C4-M05 salva al protagonista por el sacrificio de LUMA, con los rescatados ya seguros. La despedida escrita usa recuerdos existentes y ocurre una vez.
+- C4-M06 exige recibir a todas las personas del manifiesto en destino terrestre. Entregar muestras por sí solo no completa la campaña.
+- Esperar en menús o explorar secundarias no mata a LUMA o a Aurora. Los riesgos ordinarios permiten recuperación y no sustituyen el desenlace.
+- Recargar en los límites de evacuación, despedida y recepción conserva el estado. El epílogo reconoce rescate y pérdida, y mantiene los pendientes mediante nuevas expediciones.
 
 **Resultado actual:** ninguna prueba del juego ejecutada; todavía no existe implementación.

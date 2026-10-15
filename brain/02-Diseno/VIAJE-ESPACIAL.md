@@ -9,6 +9,8 @@ tags: [orbita, vuelo, navegacion]
 
 El propietario eligió **pilotaje directo en maniobras y aproximaciones, con trayectos largos acelerados**.
 
+La ruta de la historia es Tierra → Luna → Marte → Bennu → Tierra. El nodo marciano permite reabastecer y configurar la evacuación de Aurora. Cada salida tiene un objetivo narrativo y un plan de llegada o retorno; el regreso final lleva a los supervivientes a la Tierra. Ver [historia principal — spoilers](HISTORIA-PRINCIPAL.md).
+
 ## Ciclo de un trayecto
 
 Planificar ventana y reservas → desacoplar → ejecutar maniobra → crucero acelerado → corrección o incidencia prevista → aproximación → acoplar o descender.
@@ -30,6 +32,8 @@ La aproximación se completa dentro del corredor y con alineación y velocidad p
 Se distinguen tiempo físico y tiempo de juego. Días o meses se resuelven con saltos y decisiones, sin esperar ante la pantalla.
 
 Se contabilizan suministros y desgaste del tramo planificado. Soporte de vida y reservas corresponden al itinerario ficticio. Menús y conversaciones pausados no avanzan riesgos.
+
+La carga del rescate incluye plazas y suministros para la tripulación ampliada. Un conjunto de ventanas, tiempos de cápsula y autonomía del refugio debe ser compatible antes de fijar cifras. El balance todavía no está calculado; el mapa narrativo no acredita una transferencia real viable. La urgencia de Aurora y el deterioro de LUMA avanzan por hitos escritos, sin penalizar el tiempo dedicado a opcionales.
 
 Las incidencias aparecen en hitos definidos; no dependen de conectarse a una hora real. Un tramo puede abrir un descanso con LUMA.
 

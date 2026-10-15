@@ -13,7 +13,9 @@ tags: [orbita, continuidad]
 
 El propietario pidió publicar el plan y el cerebro para compartirlos. Esta entrega deja una base de documentación, decisiones y tareas; no acredita movimiento, misiones, guardado, IA o rendimiento.
 
-La revisión 1.1 desarrolla cuatro capítulos y 24 misiones, cambia LUMA a animal extraterrestre con traductor y paleta estelar y añade pilotaje 2.5D con cruceros acelerados. Son especificaciones, no contenido jugable.
+La revisión 1.2 integra la historia de Aurora en los cuatro capítulos y 24 misiones: buscar a la hermana del protagonista y a los supervivientes y traerlos a la Tierra. LUMA llega en la cápsula de emergencia, se deteriora y se sacrifica para salvar al jugador. El título de trabajo es Órbita: La última luz. Son especificaciones, no contenido jugable.
+
+Leer [historia principal — spoilers](../02-Diseno/HISTORIA-PRINCIPAL.md), [campaña y misiones](../02-Diseno/MUNDO-Y-CAMPANA.md) y [handoff de esta revisión](../08-Bitacora/HANDOFF-2026-10-14.md). La ruta Tierra → Luna → Marte → Bennu → Tierra reabastece en Marte; sustituye la escala terrestre intermedia anterior.
 
 ## Entregado
 
@@ -21,6 +23,8 @@ La revisión 1.1 desarrolla cuatro capítulos y 24 misiones, cambia LUMA a anima
 - Vault compatible con Obsidian y GitHub, sin plugins obligatorios.
 - Especificaciones de producto, diseño, arquitectura, ciencia, arte y calidad.
 - Cuatro fichas de capítulo con acciones, objetivos, desbloqueos y condiciones de cierre.
+- Historia principal con motivo del viaje, cadena de pruebas AUR-E01–AUR-E07, reencuentro, evacuación y epílogo.
+- Las 24 principales especifican su aporte al rescate. Contratos, guardado y QA contemplan revelaciones y manifiesto de supervivientes.
 - Viaje espacial y arco de LUMA separado con spoilers.
 - Decisiones del propietario y ADR.
 - Instrucciones para agentes, plantillas y secuencia de tareas.
@@ -37,11 +41,14 @@ La revisión 1.1 desarrolla cuatro capítulos y 24 misiones, cambia LUMA a anima
 - Publicación inicial confirmada en el commit ec0edf1; consultar Git para las actualizaciones posteriores.
 - Revisión documental inicial: 45 archivos, 40 documentos Markdown, 32 notas y 63 enlaces válidos.
 - Revisión 1.1: 52 archivos previstos para versionar, 47 documentos Markdown, 39 notas y 94 enlaces locales comprobados. Se verificaron seis misiones por capítulo, 18 regiones únicas y los totales 24/32/18/120.
+- Revisión 1.2: 54 archivos para versionar, 49 documentos Markdown y 41 notas con IDs únicos. 140 enlaces locales, 24 principales, 18 regiones, siete evidencias y cuotas 24/32/18/120 comprobados. Revisión de patrones de secretos y formato sin incidencias.
+- Diez Issues actualizados y leídos de nuevo para comprobar su contenido: #7–#11, #13 y #15–#18. Conservan estado abierto, dependencias y etiquetas de fase; hay 18 Issues en total.
+- Calendario narrativo, tiempos de cápsula y autonomía del refugio pendientes de validar junto con las ventanas de vuelo. La historia propuesta no acredita una trayectoria real viable.
 - El estado de publicación y los commits se comprueban en el historial y en la bitácora de esta entrega.
 
 ## Próximo trabajo permitido
 
-1. Revisar con el equipo el plan y asignar responsables reales.
+1. Revisar con el equipo plan, historia y fichas de misión; asignar responsables reales mediante PREP-01. El handoff enumera los detalles editoriales y de balance pendientes para sus fases autorizadas.
 2. Completar la investigación donde la evidencia aún sea histórica o parcial.
 3. El 28 de octubre, revisar el enunciado completo y actualizar la matriz de requisitos.
 4. El 13 de noviembre, registrar guías y horario exacto de la sede.
