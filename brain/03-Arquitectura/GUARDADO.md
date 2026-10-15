@@ -13,6 +13,8 @@ IndexedDB mediante Dexie será el almacenamiento principal. El usuario podrá ex
 
 Versión de esquema y contenido; perfil local; progreso de misiones; recursos estables; IDs de hallazgos; mejoras; semillas necesarias; memoria y decisiones escritas de LUMA; opciones.
 
+Añadir capítulo y principales, etapas procesadas, condición de vida y paleta de LUMA; modo de control; nave, tramo e hitos de crucero.
+
 No guardar referencias de objetos Phaser, nodos DOM, funciones, credenciales ni una dependencia del historial completo de chat.
 
 ## Escritura
@@ -30,3 +32,5 @@ Si la cuota de almacenamiento o permisos impiden escribir, informar y ofrecer ex
 ## Aceptación
 
 Recargar en un hito, repetir una entrega y exportar/importar conserva el estado sin premios duplicados. Sin red se puede completar la región ya cargada; una región no descargada debe comunicar su indisponibilidad.
+
+Reanudar un crucero no vuelve a consumir suministros de un tramo ya resuelto. El marco de coordenadas se conserva al cambiar de modo. Cargar tras un cierre narrativo no revierte resultados ni repite escenas. La exploración posterior funciona con herramientas del jugador.

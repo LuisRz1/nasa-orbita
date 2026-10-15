@@ -16,6 +16,12 @@ tags: [orbita, producto]
 | Fecha del evento | 14–15 de noviembre de 2026. |
 | Elegibilidad | Conservarla: preparación ahora, implementación durante el evento. |
 | Compañero | Diálogos escritos y conversación con IA opcional. |
+| Identidad de LUMA | Animal extraterrestre ficticio, compacto y cúbico; sustituye la propuesta de rover. |
+| Comunicación | Sonidos y gestos con traductor ficticio. |
+| Color | Paleta solar que evoluciona como una estrella similar al Sol según los capítulos. |
+| Arco emocional | Deterioro reconocido gradualmente y despedida íntima y definitiva; nota con spoilers. |
+| Después de la historia | Epílogo y mundo explorable con recuerdos y herramientas propias. |
+| Viaje espacial | Pilotaje directo 2.5D y trayectos largos acelerados. |
 | Coste de IA | Sin pagos por ahora; solo acceso gratuito disponible. |
 | Repositorio | Público en la cuenta LuisRz1. |
 | Demo | Pública y jugable sin registro. |
@@ -27,5 +33,7 @@ tags: [orbita, producto]
 Valores fijados por el plan: un jugador, español e inglés, guardado local, nombre inicial **Órbita: Cartógrafos del futuro** y compañero **LUMA**.
 
 Son metas de producción, pendientes de validación: 18 regiones, 24 misiones principales, 32 secundarias, 120 hallazgos y presupuestos de rendimiento. No convertirlos en resultados ya logrados.
+
+Seis misiones por capítulo, Bennu y los objetivos concretos son la propuesta editorial desarrollada a partir de la solicitud. Ver [campaña](../02-Diseno/MUNDO-Y-CAMPANA.md). La paleta azul/verde/violeta/ámbar propuesta anteriormente queda sustituida por blanco-dorado/naranja/rojo/blanco azulado.
 
 Cambiar una decisión de producto requiere registrarlo aquí y actualizar el plan, alcance y tareas afectados. No volver a solicitar confirmación para la publicación pública que ya está autorizada.

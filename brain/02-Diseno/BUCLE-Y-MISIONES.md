@@ -32,3 +32,13 @@ Desplazarse, observar, escanear, interactuar, recoger y reparar. Cada lugar de i
 Mostrar objetivo cumplido, observaciones, muestras entregadas, recursos utilizados, incidencias y explicación causal. Comparar con lo previsto sin calificar una simplificación educativa como certificación de una misión real.
 
 Las cifras de balance, fórmulas finales y contenido de la incidencia se definirán durante la ventana autorizada, después de revisar el enunciado completo.
+
+## Avance por capítulos
+
+Cada capítulo tiene seis principales con ID. El diario muestra objetivos, entrega, regreso o llegada pendientes. Secundarias, hallazgos opcionales y puntuación de afecto no bloquean el avance.
+
+Los capítulos 1 y 4 son secuenciales. En Luna M03–M05 admiten orden libre tras M02. En Marte M04 y M05 se pueden intercambiar tras M03. Los informes finales verifican todas las principales del capítulo.
+
+Ver [campaña](MUNDO-Y-CAMPANA.md) y [pilotaje y crucero](VIAJE-ESPACIAL.md). Una llegada no se completa únicamente por una animación.
+
+Los fallos recuperables permiten reintento o aborto. Las asistencias no bloquean historia. El estado narrativo de LUMA depende de hitos escritos, no del rendimiento o de una avería del servicio de IA.

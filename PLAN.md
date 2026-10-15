@@ -1,6 +1,6 @@
 # Plan del proyecto: Órbita, Cartógrafos del futuro
 
-Versión 1.0 · Decisiones acordadas con el propietario · Publicación documental: 14 de octubre de 2026.
+Versión 1.1 · Decisiones acordadas y propuesta editorial detallada · Actualización documental: 14 de octubre de 2026.
 
 ## 1. Resumen y decisiones acordadas
 
@@ -21,7 +21,7 @@ El horario concreto y las condiciones de la sede deberán constar antes de inici
 Dirigir una expedición científica mientras se controla al astronauta y se recorren regiones con identidad propia.
 
 1. **Preparar:** escoger objetivo, vehículo de lanzamiento, módulos, instrumentos y reservas.
-2. **Viajar:** seleccionar una ruta con diferencias de combustible, duración y comunicaciones.
+2. **Viajar:** seleccionar ruta y reservas, pilotar maniobras y aproximaciones 2.5D y acelerar los cruceros largos.
 3. **Explorar:** caminar, escanear, recoger muestras, reparar equipos y resolver problemas ambientales.
 4. **Decidir:** equilibrar objetivos científicos, seguridad y recursos restantes.
 5. **Regresar:** entregar muestras y recibir un informe que explique los resultados.
@@ -31,12 +31,14 @@ Dirigir una expedición científica mientras se controla al astronauta y se reco
 
 | Capítulo | Experiencia |
 | --- | --- |
-| Órbita terrestre | Entrenamiento, estación, mantenimiento y operaciones en microgravedad. |
-| Luna | Cráteres, sombras, geología y expediciones con autonomía limitada. |
-| Marte | Rutas extensas, investigación geológica, polvo y comunicaciones demoradas. |
-| Asteroide | Muestreo, anclajes y movimiento con gravedad muy baja. |
+| [1. Primera luz — órbita](brain/02-Diseno/CAPITULOS/C1-PRIMERA-LUZ.md) | Planificar, lanzar, acoplar, conocer a LUMA, hacer una EVA y viajar a la Luna. |
+| [2. Bajo otro cielo — Luna](brain/02-Diseno/CAPITULOS/C2-BAJO-OTRO-CIELO.md) | Alunizar, instalar refugio, explorar geología y sombra, reparar relé y regresar. |
+| [3. El mundo rojo — Marte](brain/02-Diseno/CAPITULOS/C3-EL-MUNDO-ROJO.md) | Crucero interplanetario, descenso, hábitat, evidencias, contingencia y ascenso. |
+| [4. Lo que queda de la luz — Bennu; spoilers](brain/02-Diseno/CAPITULOS/C4-LO-QUE-QUEDA.md) | Preparar expedición, hacer contacto anclado, muestrear, extraer y regresar al epílogo. |
 
 La campaña completa tendrá como presupuesto inicial **18 regiones, 24 misiones principales, 32 actividades secundarias y 120 descubrimientos coleccionables**. Son objetivos de producción y duración, todavía sin contenido implementado.
+
+Cada capítulo tiene seis misiones obligatorias con ID, acción, aceptación y desbloqueo. El diario muestra sus requisitos; secundarias, colecciones y puntuaciones de afecto no bloquean la historia. Ver [distribución y condiciones](brain/02-Diseno/MUNDO-Y-CAMPANA.md).
 
 Los escenarios combinarán lugares diseñados manualmente con generación procedural limitada para terreno secundario y variaciones de expediciones. Objetivos, relatos y descubrimientos importantes tendrán diseño individual.
 
@@ -52,13 +54,19 @@ Los escenarios combinarán lugares diseñados manualmente con generación proced
 
 ### LUMA
 
-Pequeño rover que acompaña en superficie y asistente de misión durante el viaje. Tendrá personalidad, recuerdos de decisiones y reacciones a hallazgos. Los diálogos escritos permitirán completar toda la historia; la conversación libre online será opcional.
+Animal extraterrestre ficticio de cuerpo compacto y cúbico. Se comunica con sonidos y gestos mediante un traductor ficticio, acompaña al jugador y necesita protección ambiental. El rover de superficie es un equipo distinto.
+
+Su paleta recorre **blanco-dorado → naranja → rojo → blanco azulado**, inspirada en una estrella similar al Sol. La conducta muestra desgaste progresivo. Es una comparación simbólica, sin temperatura estelar ni supernova.
+
+Los diálogos escritos cubren la historia; la IA online es opcional. Ver [LUMA](brain/02-Diseno/LUMA.md) y [arco narrativo con SPOILERS](brain/02-Diseno/ARCO-LUMA-SPOILERS.md).
 
 La IA no otorgará objetos, completará misiones ni controlará el progreso. Su indisponibilidad no bloqueará la partida.
 
 ### Ciencia
 
 Futuro cercano hipotético basado en conocimiento actual del Sistema Solar. Los datos observados tendrán fuentes consultables y las bases y expediciones inventadas se identificarán como ficción.
+
+La especie de LUMA y su traductor son licencias de ciencia ficción explícitas, no descubrimientos de NASA. Bennu es la referencia real del capítulo final; los equipos e itinerarios humanos son hipotéticos.
 
 Gravedad, iluminación, energía, combustible y comunicaciones influirán en las decisiones. Las distancias y tiempos se comprimirán para jugar, mostrando también las magnitudes reales.
 
@@ -104,7 +112,9 @@ La arquitectura será un **monolito modular**:
 - **Persistencia:** partidas versionadas, respaldo y migraciones.
 - **Servidor opcional:** conversación libre; el juego se ejecuta en el navegador.
 
-Los contratos principales serán MissionDefinition, RegionDefinition, CollectibleDefinition, DialogueNode, ScienceSource y SaveGame, con identificadores estables.
+Los contratos principales serán MissionDefinition, ChapterDefinition, RegionDefinition, CollectibleDefinition, DialogueNode, ScienceSource y SaveGame, con IDs estables. Se añaden estado narrativo del compañero, vuelo local y tramos de crucero separados.
+
+El [pilotaje](brain/02-Diseno/VIAJE-ESPACIAL.md) usa posición y velocidad relativas. Los cruceros contabilizan tiempo físico y recursos por tramo, sin esperar días o meses reales. Ver [ADR 004](brain/03-Arquitectura/ADR/ADR-004.md).
 
 El servicio online previsto es **POST /api/companion/chat**. Recibirá mensaje y contexto limitado; devolverá texto y referencias científicas.
 
@@ -144,7 +154,7 @@ Código propio bajo MIT; documentación y recursos creativos originales bajo CC 
 | 14–15 de noviembre | Construir y publicar la demo dentro del periodo permitido. |
 | Expansión posterior | Completar Luna, Marte, órbita y asteroide por hitos de calidad. |
 
-La demo tendrá **15–25 minutos**, con un recorrido de presentación de unos cinco minutos: planificación, viaje resumido, región lunar con seis lugares de interés, LUMA, recolección, una incidencia técnica, regreso e informe.
+La demo tendrá **15–25 minutos**, con presentación de unos cinco minutos: planificación, tramo acelerado, aproximación pilotada breve, región lunar compacta de seis lugares, LUMA, incidencia, regreso e informe. Es un fragmento del capítulo 2 y no revela el cierre.
 
 Reparto propuesto: propietario en programación e integración; segunda persona en arte, mapas e interfaz; tercera persona, si participa, en ciencia, narrativa, pruebas y presentación. Con dos personas, esta última responsabilidad se comparte.
 

@@ -28,6 +28,8 @@ tags: [orbita, pruebas]
 | Red | Se puede completar la región cargada al perder conexión. |
 | Idioma y controles | Español e inglés, foco de teclado y texto legible; escribir no mueve al personaje. |
 | Ciencia | Datos consultables y simplificaciones reconocibles. |
+| Pilotaje | Frenar respecto al objetivo, acoplar y reintentar con asistencia visible. |
+| Crucero | Acelerar, pausar y reanudar sin duplicar consumo de recursos. |
 
 Vitest comprobará reglas y persistencia relevantes. Playwright comprobará recorridos de usuario y fallos de red. No escribir pruebas que solo repitan la implementación.
 
@@ -40,5 +42,9 @@ Registrar navegador, resolución, GPU utilizada, escena, duración y resultado. 
 ## Campaña
 
 Jugadores nuevos deben probar orientación, legibilidad, progresión, repetición, dificultad y duración. Ajustar cuotas de contenido con evidencia.
+
+Comprobar las 24 principales y sus dependencias, las cuatro condiciones de cierre y la libertad de orden en Luna/Marte. No exigir opcionales para pasar.
+
+Verificar cuatro paletas de LUMA con señales accesibles, traducción escrita sin red, ausencia de spoilers en respuestas y persistencia de sus acontecimientos. La exploración posterior no depende de su presencia o chat.
 
 **Resultado actual:** ninguna prueba del juego ejecutada; todavía no existe implementación.

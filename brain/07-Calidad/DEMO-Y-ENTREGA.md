@@ -9,7 +9,7 @@ tags: [orbita, demo]
 
 ## Recorrido normal: 15–25 minutos
 
-Planificar carga → ver viaje resumido → desplegar astronauta y LUMA → investigar una región lunar de seis lugares → gestionar una incidencia → regresar → revisar resultados.
+Planificar → resolver tramo acelerado → pilotar aproximación breve con asistencia → desplegar astronauta y LUMA → investigar seis lugares → gestionar incidencia → regresar → revisar resultados.
 
 Debe ser posible cambiar una decisión y observar una consecuencia explicable. Las conversaciones escritas cubren todo el recorrido.
 
@@ -17,7 +17,7 @@ Debe ser posible cambiar una decisión y observar una consecuencia explicable. L
 
 1. Mostrar la pregunta del reto y el objetivo científico.
 2. Comparar dos configuraciones de instrumentos.
-3. Explorar y registrar un hallazgo.
+3. Mostrar frenado/asistencia y explorar un hallazgo.
 4. Mostrar una reacción de LUMA y una decisión técnica.
 5. Regresar y explicar el informe.
 6. Abrir una fuente y señalar las simplificaciones.

@@ -25,6 +25,8 @@ La fecha global es 14–15 de noviembre de 2026. El horario y sede exactos aún 
 - No iniciar delegación o agentes paralelos sin autorización expresa del usuario o instrucciones aplicables que la pidan.
 - Cambios de motor, persistencia, alcance, costes o contratos requieren actualizar el ADR y la especificación afectados.
 - Las versiones y disponibilidad de servicios se verifican antes de instalar. No instalar herramientas globales si basta una dependencia local o portable.
+- LUMA es un animal extraterrestre con traductor, no un rover. Leer su especificación y, para narrativa/guardado/QA, el arco con spoilers.
+- Respetar cuatro capítulos de seis principales y el modelo de pilotaje local con crucero acelerado. Los opcionales no bloquean avanzar.
 - No contratar servicios, comprar créditos, activar recargas ni añadir cobros. La IA online es opcional y el presupuesto autorizado de pagos es cero.
 - No publicar claves, tokens, partidas personales, conversaciones completas ni configuraciones privadas en este repositorio público.
 - Nunca dar a la IA autoridad para modificar progreso, recursos o recompensas.

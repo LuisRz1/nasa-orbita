@@ -15,7 +15,7 @@ Documentos, investigación, especificaciones, reparto propuesto y tareas. No inc
 
 - Un jugador y una región lunar con seis lugares de interés.
 - Planificador con alternativas de carga y recursos.
-- Viaje resumido y despliegue.
+- Tramo acelerado, aproximación pilotada breve y despliegue.
 - Astronauta de cuerpo completo, LUMA y acciones básicas.
 - Hallazgos, una incidencia técnica, regreso e informe.
 - Guardado local y recorrido completo sin IA online.
@@ -23,9 +23,11 @@ Documentos, investigación, especificaciones, reparto propuesto y tareas. No inc
 
 ## Campaña posterior
 
-Órbita, Luna, Marte y un asteroide. Presupuesto inicial: 18 regiones, 24 misiones principales, 32 secundarias y 120 hallazgos; duración objetivo de 12–20 horas.
+Órbita, Luna, Marte y Bennu. Cuatro capítulos de seis misiones. Presupuesto: 18 regiones, 24 principales, 32 secundarias y 120 hallazgos; duración total objetivo de 12–20 horas.
 
 Incluye mejoras modulares, expediciones opcionales, diario, conversaciones reactivas, ocho orientaciones, controles con mando y localización español/inglés.
+
+Incluye pilotaje 2.5D, cruceros acelerados y un animal acompañante con traductor y cambios de color estelar. El cierre y la exploración posterior se especifican en una nota con spoilers.
 
 ## Fuera de la primera versión
 

@@ -17,8 +17,11 @@ Este vault reúne las decisiones y el punto de continuación del proyecto. Puede
 | --- | --- |
 | Producto | [Visión](../01-Producto/VISION.md), [alcance](../01-Producto/ALCANCE.md), [referentes](../01-Producto/INVESTIGACION-JUEGOS.md) |
 | Diseño | [Misiones](../02-Diseno/BUCLE-Y-MISIONES.md), [mundo](../02-Diseno/MUNDO-Y-CAMPANA.md), [progresión](../02-Diseno/PROGRESION-Y-COLECCIONABLES.md), [LUMA](../02-Diseno/LUMA.md) |
+| Campaña detallada | [Capítulo 1](../02-Diseno/CAPITULOS/C1-PRIMERA-LUZ.md), [capítulo 2](../02-Diseno/CAPITULOS/C2-BAJO-OTRO-CIELO.md), [capítulo 3](../02-Diseno/CAPITULOS/C3-EL-MUNDO-ROJO.md), [capítulo 4 — spoilers](../02-Diseno/CAPITULOS/C4-LO-QUE-QUEDA.md) |
+| Viaje | [Pilotaje y crucero](../02-Diseno/VIAJE-ESPACIAL.md) |
+| Narrativa con spoilers | [Arco de LUMA](../02-Diseno/ARCO-LUMA-SPOILERS.md) |
 | Arquitectura | [Módulos](../03-Arquitectura/ARQUITECTURA.md), [contratos](../03-Arquitectura/CONTRATOS.md), [guardado](../03-Arquitectura/GUARDADO.md) |
-| Decisiones técnicas | [ADR 001](../03-Arquitectura/ADR/ADR-001.md), [ADR 002](../03-Arquitectura/ADR/ADR-002.md), [ADR 003](../03-Arquitectura/ADR/ADR-003.md) |
+| Decisiones técnicas | [ADR 001](../03-Arquitectura/ADR/ADR-001.md), [ADR 002](../03-Arquitectura/ADR/ADR-002.md), [ADR 003](../03-Arquitectura/ADR/ADR-003.md), [ADR 004](../03-Arquitectura/ADR/ADR-004.md) |
 | Ciencia | [Realismo](../04-Ciencia/DATOS-Y-REALISMO.md), [fuentes](../04-Ciencia/FUENTES.md), [requisitos NASA](../04-Ciencia/REQUISITOS-NASA.md) |
 | Arte | [Guía visual](../05-Arte/GUIA-VISUAL.md), [animación y audio](../05-Arte/ANIMACIONES-Y-AUDIO.md) |
 | Producción | [Backlog](../06-Produccion/BACKLOG.md), [equipo y agentes](../06-Produccion/EQUIPO-Y-AGENTES.md), [entorno](../06-Produccion/ENTORNO.md) |

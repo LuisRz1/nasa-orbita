@@ -1,6 +1,6 @@
 # Órbita: Cartógrafos del futuro
 
-Juego de exploración espacial para navegador, con pixel art 2.5D, decisiones de diseño de misiones y un compañero llamado **LUMA**.
+Juego de exploración espacial para navegador, con pixel art 2.5D, pilotaje, exploración planetaria y un animal extraterrestre acompañante llamado **LUMA**.
 
 **Estado: preparación documental. Todavía no existe una versión jugable.** El objetivo es construir una demo durante NASA Space Apps 2026 y ampliar después el juego hasta una campaña de 12–20 horas.
 
@@ -9,6 +9,8 @@ Juego de exploración espacial para navegador, con pixel art 2.5D, decisiones de
 | Necesitas… | Abre… |
 | --- | --- |
 | Compartir la propuesta completa | [Plan del proyecto](PLAN.md) |
+| Ver capítulos, misiones y requisitos | [Campaña](brain/02-Diseno/MUNDO-Y-CAMPANA.md) |
+| Conocer el pilotaje y los trayectos | [Viaje espacial](brain/02-Diseno/VIAJE-ESPACIAL.md) |
 | Recorrer el cerebro del proyecto | [Inicio del vault](brain/00-Inicio/INICIO.md) |
 | Saber qué está hecho y qué sigue | [Estado actual](brain/00-Inicio/ESTADO-ACTUAL.md) |
 | Trabajar como agente o colaborador | [Instrucciones de trabajo](AGENTS.md) |
@@ -19,9 +21,13 @@ Juego de exploración espacial para navegador, con pixel art 2.5D, decisiones de
 
 Preparar una misión → viajar → explorar → tomar decisiones → regresar → entender los resultados → desbloquear nuevas expediciones.
 
-La campaña recorrerá órbita terrestre, Luna, Marte y un asteroide. El astronauta se verá de cuerpo completo en una vista isométrica. Habrá muestras, observaciones, registros históricos, mejoras y conversaciones que reaccionan a lo descubierto.
+La campaña recorrerá órbita terrestre, Luna, Marte y Bennu con **cuatro capítulos y 24 misiones principales**. El astronauta se verá completo en vista isométrica. Habrá muestras, observaciones, registros históricos, mejoras y conversaciones reactivas.
 
-La ambientación será un futuro cercano hipotético. Los datos científicos tendrán fuentes; las bases y misiones inventadas estarán identificadas como ficción.
+Controlarás maniobras, aproximaciones y acoplamientos en 2.5D. Los cruceros largos tendrán planificación y tiempo acelerado. Cada capítulo muestra qué objetivos hacen falta para avanzar.
+
+LUMA es una criatura viva con traductor ficticio. Su color evoluciona con los capítulos inspirado en una estrella similar al Sol. La documentación del cierre está marcada con spoilers.
+
+La ambientación será un futuro cercano hipotético. Los datos científicos tendrán fuentes; bases, misiones humanas futuras, especie de LUMA y traductor estarán identificados como ficción.
 
 ## Tecnología acordada
 

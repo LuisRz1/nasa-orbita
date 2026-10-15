@@ -17,7 +17,13 @@ Cada animación documentará orientación, duración, bucle, interrupción, punt
 
 ## LUMA
 
-Reposo, desplazamiento y reacción. En superficie se mueve como rover; no flota sin justificar el mecanismo. Durante tránsito puede representarse mediante el panel de asistencia.
+LUMA es un animal: reposo, caminar, correr brevemente, observar, jugar, buscar contacto, descansar y reaccionar. En gravedad muy baja usa protección y sujeción.
+
+Durante crucero se ve en la cabina y puede abrir momentos de convivencia; no es el icono de navegación.
+
+Usar una silueta con paletas estelares por capítulo. El deterioro modifica postura y comportamiento conservando fluidez; no se representa como retraso de respuesta de la aplicación.
+
+Vocalizaciones y traductor tienen subtítulos y ajustes. El cierre sigue la secuencia escrita y el audio contenido de la nota con spoilers.
 
 ## Sonido
 

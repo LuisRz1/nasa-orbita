@@ -15,7 +15,7 @@ La resolución interna propuesta es 960 × 540, escalada respetando los píxeles
 
 ## Lenguaje
 
-- La silueta distingue astronauta, rover, instrumento y obstáculo.
+- La silueta distingue astronauta, animal LUMA, rover, instrumento y obstáculo.
 - Cada destino tiene una paleta y un contraste ambiental propio.
 - Color, forma e icono comunican estados; no depender solo de rojo y verde.
 - El brillo señala información útil sin convertir todos los objetos en recompensas.
@@ -29,3 +29,16 @@ Mapa en Tiled → exportación JSON → validación de capas y referencias. Spri
 Conservar archivos editables y registrar licencias. Los tamaños de tile y sprite se fijarán con la primera prueba de legibilidad, antes de producir el resto del contenido.
 
 Esta nota es una especificación. No se han producido sprites, mapas o una muestra visual del juego.
+
+## LUMA y paleta estelar
+
+Conservar forma compacta y cúbica, patas cortas y ojos pequeños. Sustituir paleta sobre el mismo diseño; no cambiar de especie por capítulo.
+
+| Etapa | Color principal de referencia |
+| --- | --- |
+| C1 | Blanco cálido/dorado · #FFEAA7 |
+| C2 | Naranja/ámbar · #F1A246 |
+| C3 | Rojo cobrizo · #C45A43 |
+| C4 | Blanco azulado · #D9EEFF |
+
+Son valores artísticos ajustables tras revisar contraste; no codifican temperatura. Postura, conducta y texto comunican los cambios también con efectos reducidos.

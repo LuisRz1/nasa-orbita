@@ -13,15 +13,19 @@ tags: [orbita, continuidad]
 
 El propietario pidió publicar el plan y el cerebro para compartirlos. Esta entrega deja una base de documentación, decisiones y tareas; no acredita movimiento, misiones, guardado, IA o rendimiento.
 
+La revisión 1.1 desarrolla cuatro capítulos y 24 misiones, cambia LUMA a animal extraterrestre con traductor y paleta estelar y añade pilotaje 2.5D con cruceros acelerados. Son especificaciones, no contenido jugable.
+
 ## Entregado
 
 - Plan completo y README de entrada.
 - Vault compatible con Obsidian y GitHub, sin plugins obligatorios.
 - Especificaciones de producto, diseño, arquitectura, ciencia, arte y calidad.
+- Cuatro fichas de capítulo con acciones, objetivos, desbloqueos y condiciones de cierre.
+- Viaje espacial y arco de LUMA separado con spoilers.
 - Decisiones del propietario y ADR.
 - Instrucciones para agentes, plantillas y secuencia de tareas.
 - [Repositorio público](https://github.com/LuisRz1/nasa-orbita), con la rama main publicada.
-- [13 Issues](https://github.com/LuisRz1/nasa-orbita/issues) con dependencias, aceptación y etiquetas por fase.
+- [18 Issues](https://github.com/LuisRz1/nasa-orbita/issues) con dependencias, aceptación y etiquetas por fase.
 
 ## Evidencia y límites
 
@@ -31,7 +35,8 @@ El propietario pidió publicar el plan y el cerebro para compartirlos. Esta entr
 - No hay dependencias del juego, assets, datasets procesados, pruebas de ejecución ni demo.
 - Las versiones técnicas son una base investigada; no existe todavía un lockfile.
 - Publicación inicial confirmada en el commit ec0edf1; consultar Git para las actualizaciones posteriores.
-- Revisión documental: 45 archivos, 40 documentos Markdown, 32 notas de vault, 63 enlaces locales válidos e IDs de notas únicos.
+- Revisión documental inicial: 45 archivos, 40 documentos Markdown, 32 notas y 63 enlaces válidos.
+- Revisión 1.1: 52 archivos previstos para versionar, 47 documentos Markdown, 39 notas y 94 enlaces locales comprobados. Se verificaron seis misiones por capítulo, 18 regiones únicas y los totales 24/32/18/120.
 - El estado de publicación y los commits se comprueban en el historial y en la bitácora de esta entrega.
 
 ## Próximo trabajo permitido
