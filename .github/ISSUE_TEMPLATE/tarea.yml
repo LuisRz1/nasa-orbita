@@ -1,0 +1,42 @@
+name: Tarea del proyecto
+description: Trabajo con fase, dependencias y aceptación comprobable.
+title: "[ID] Resultado esperado"
+body:
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Fase
+      options:
+        - Preparación documental
+        - Hackathon — requiere ventana autorizada
+        - Expansión posterior
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Resultado y alcance
+      description: Indica qué quedará entregado y enlaza su especificación.
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencias y responsable
+      description: Incluye IDs o enlaces a Issues y responsable confirmado.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Criterios de aceptación
+      description: Condiciones observables para cerrar la tarea.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Comprobaciones y handoff
+      description: Cómo se verificará y qué documentación debe actualizarse.
+    validations:
+      required: true

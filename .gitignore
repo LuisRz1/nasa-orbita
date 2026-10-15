@@ -1,0 +1,34 @@
+# Dependencias, builds y cachés futuras
+node_modules/
+dist/
+build/
+coverage/
+.pnpm-store/
+.cache/
+.vite/
+.vercel/
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# Secretos y preferencias locales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Obsidian personal; el vault funciona sin configuración compartida
+brain/.obsidian/
+brain/.trash/
+brain/.DS_Store
+
+# Datos brutos y partidas: no publicar sin revisión
+data-raw/
+local-saves/
+*.log
