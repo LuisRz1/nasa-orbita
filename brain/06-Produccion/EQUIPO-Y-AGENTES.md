@@ -2,7 +2,7 @@
 id: equipo-agentes
 type: produccion
 status: reparto-propuesto
-updated: 2026-10-14
+updated: 2026-10-19
 tags: [orbita, colaboracion]
 ---
 # Equipo y continuidad entre agentes
@@ -34,3 +34,5 @@ Si aún no hay comandos de desarrollo, escribirlo. No inventar un comando de arr
 Evitar que dos personas modifiquen a la vez el mismo mapa, atlas o contrato sin acordarlo. Los cambios de contratos se comunican en el Issue y la documentación.
 
 La documentación prepara el trabajo para futuros agentes; no autoriza por sí sola a lanzar agentes paralelos ni a enviar mensajes a otras personas o chats.
+
+El reparto de agentes, las olas, las puertas y las plantillas de prompt para la hackathon están en [orquestación de la hackathon](ORQUESTACION-HACKATHON.md).

@@ -2,7 +2,7 @@
 id: demo-entrega
 type: entrega
 status: especificado-sin-implementar
-updated: 2026-10-14
+updated: 2026-10-19
 tags: [orbita, demo]
 ---
 # Demo de hackathon
@@ -12,6 +12,8 @@ tags: [orbita, demo]
 Planificar → resolver tramo acelerado → pilotar aproximación breve con asistencia → desplegar astronauta y LUMA → investigar seis lugares → gestionar incidencia → regresar → revisar resultados.
 
 Debe ser posible cambiar una decisión y observar una consecuencia explicable. Las conversaciones escritas cubren todo el recorrido.
+
+Las esquemáticas detalladas están en el [GDD de la demo](../02-Diseno/DEMO/GDD-DEMO.md): parámetros, mecánicas, físicas, diseño de nivel, greybox y estructura de código. Su ejecución sigue la [orquestación de la hackathon](../06-Produccion/ORQUESTACION-HACKATHON.md).
 
 ## Objetivo e integración con la historia
 

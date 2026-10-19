@@ -1,5 +1,15 @@
 # Registro de cambios
 
+## 2026-10-19 — Revisión 1.3: esquemáticas de la demo
+
+- Se reafirma la elegibilidad: esquemáticas ahora, código en la ventana autorizada.
+- GDD de la demo «Una voz en el archivo» con máquina de estados, validación V1–V6 / W1–W5 y alcance.
+- Parámetros provisionales calculados como fuente única: vehículo, propelente, módulos, soporte vital, mapa y vuelo.
+- Esquemáticas de mecánicas, físicas, diseño de nivel (mapa 56 × 44 verificado) y greybox gris/blanco.
+- Estructura de código, contratos en tablas, matriz de pruebas y plan de orquestación de agentes para la hackathon.
+- Tres fuentes científicas nuevas y decisiones, backlog y estado sincronizados.
+- Sigue sin haber código, dependencias, assets ni despliegue.
+
 ## 2026-10-14 — Revisión 1.2: historia de Aurora y misiones de rescate
 
 - Título de trabajo Órbita: La última luz e historia principal completa con spoilers.

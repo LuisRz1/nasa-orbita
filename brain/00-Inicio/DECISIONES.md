@@ -2,7 +2,7 @@
 id: decisiones-propietario
 type: decisiones
 status: acordado
-updated: 2026-10-14
+updated: 2026-10-19
 tags: [orbita, producto]
 ---
 # Decisiones del propietario
@@ -31,6 +31,10 @@ tags: [orbita, producto]
 | Acción del 14 de octubre | Publicar el plan y el cerebro en GitHub para compartirlos. |
 | Objetivo narrativo | Buscar a Aurora, rescatar a la hermana del protagonista y traer a los supervivientes a la Tierra. |
 | Publicación de historia | Subir la historia principal, el arco de LUMA y lo que se hará en cada misión. |
+| Elegibilidad, reafirmada (19 oct) | Ante la petición de empezar a programar, el usuario volvió a elegir conservar la elegibilidad. Ahora se preparan esquemáticas; el código se escribe en la ventana autorizada. |
+| Estilo inicial de la demo | Greybox en gris y blanco. El estilo artístico final se decidirá después y no sustituye la dirección de pixel art ni la paleta solar. |
+| Ejecución web | La demo se juega en el navegador con WebGL mediante Phaser (ADR 001). |
+| Agentes | El usuario autorizó orquestar varios agentes: hoy para las esquemáticas y, en la hackathon, según la orquestación documentada, con confirmación al iniciar. |
 
 Valores fijados por el plan: un jugador, español e inglés, guardado local y compañero **LUMA**. El título de trabajo pasa de **Órbita: Cartógrafos del futuro** a **Órbita: La última luz** en la propuesta narrativa que el propietario pidió publicar.
 

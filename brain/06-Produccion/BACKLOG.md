@@ -2,7 +2,7 @@
 id: backlog
 type: produccion
 status: inicial
-updated: 2026-10-14
+updated: 2026-10-19
 tags: [orbita, tareas]
 ---
 # Backlog y dependencias
@@ -29,6 +29,21 @@ Los [GitHub Issues](https://github.com/LuisRz1/nasa-orbita/issues) son la fuente
 | [EXP-C2 · #16](https://github.com/LuisRz1/nasa-orbita/issues/16) | Bajo otro cielo: reconstruir registro; seis misiones y cinco regiones. | Posterior | JAM-07. |
 | [EXP-C3 · #17](https://github.com/LuisRz1/nasa-orbita/issues/17) | El mundo rojo: desvío, supervivientes y plan de rescate; seis misiones y seis regiones. | Posterior | EXP-C1 y EXP-C2. |
 | [EXP-C4 · #18](https://github.com/LuisRz1/nasa-orbita/issues/18) | Lo que queda: evacuación, sacrificio de LUMA y regreso; seis misiones, cuatro regiones y epílogo. | Posterior | EXP-C3. |
+
+## Esquemática por tarea de hackathon
+
+| ID | Esquemáticas que la definen |
+| --- | --- |
+| JAM-01 | [Estructura de código](../03-Arquitectura/ESTRUCTURA-CODIGO.md), [orquestación, ola 0](ORQUESTACION-HACKATHON.md) |
+| JAM-02 | [Físicas](../02-Diseno/DEMO/FISICAS.md), [diseño de nivel](../02-Diseno/DEMO/DISENO-DE-NIVEL.md) |
+| JAM-03 | [Mecánicas](../02-Diseno/DEMO/MECANICAS.md), [parámetros](../02-Diseno/DEMO/PARAMETROS-DEMO.md) |
+| JAM-04 | [Diseño de nivel](../02-Diseno/DEMO/DISENO-DE-NIVEL.md), [greybox](../05-Arte/GREYBOX.md) |
+| JAM-05 | [Mecánicas: LUMA](../02-Diseno/DEMO/MECANICAS.md) |
+| JAM-06 | [Estructura de código](../03-Arquitectura/ESTRUCTURA-CODIGO.md), [guardado](../03-Arquitectura/GUARDADO.md) |
+| JAM-07 | [Estructura de código: matriz de pruebas](../03-Arquitectura/ESTRUCTURA-CODIGO.md), [aceptación](../07-Calidad/ACEPTACION-Y-PRUEBAS.md) |
+| JAM-08 | [Físicas](../02-Diseno/DEMO/FISICAS.md), [mecánicas: crucero](../02-Diseno/DEMO/MECANICAS.md) |
+
+Índice: [GDD de la demo](../02-Diseno/DEMO/GDD-DEMO.md). Las esquemáticas no cierran ningún Issue de software.
 
 ## Enlaces operativos
 

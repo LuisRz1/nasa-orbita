@@ -2,7 +2,7 @@
 id: fuentes
 type: bibliografia
 status: inicial
-updated: 2026-10-14
+updated: 2026-10-19
 tags: [orbita, fuentes]
 ---
 # Fuentes y catálogo previsto
@@ -12,6 +12,9 @@ tags: [orbita, fuentes]
 | NASA-FAQ-2026 | [Participant FAQs](https://www.spaceappschallenge.org/resources/participant-faqs/) | Fechas y condiciones de participación. | Revisado 2026-10-14. |
 | NASA-CHALLENGE-2026 | [Space Mission Design Game](https://www.spaceappschallenge.org/2026/challenges/space-mission-design-game/) | Requisitos del reto. | Resumen consultado; detalles previstos 2026-10-28. |
 | NASA-MOON | [Moon Facts](https://science.nasa.gov/moon/facts/) | Contexto físico lunar. | Fuente identificada. |
+| NASA-MOON-FACTSHEET | [NSSDC Moon Fact Sheet](https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html) | Gravedad superficial (1,62 m/s²) y distancia media Tierra-Luna para la demo. | Consultado 2026-10-19. |
+| NASA-APOLLO11 | [Apollo 11 Mission Overview](https://www.nasa.gov/history/apollo-11-mission-overview/) | Referencia histórica de la duración del tránsito a la órbita lunar (unas 75 h 50 min). | Consultado 2026-10-19. |
+| NASA-ROCKET-EQ | [NASA Glenn, Ideal Rocket Equation](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/ideal-rocket-equation/) | Ecuación del cohete Δu = Isp · g₀ · ln(MR) para el consumo de propelente de la demo. | Consultado 2026-10-19. |
 | PDS-LOLA | [LRO LOLA](https://pds-geosciences.wustl.edu/missions/lro/lola.htm) | Topografía lunar. | Catálogo identificado; ningún producto incorporado. |
 | PDS-MOLA | [Mars Global Surveyor / MOLA](https://pds-geosciences.wustl.edu/missions/mgs/mola.html) | Topografía marciana. | Candidato; validar producto al usarlo. |
 | JPL-HORIZONS | [Horizons API](https://ssd-api.jpl.nasa.gov/doc/horizons.html) | Efemérides y distancias. | Documentación consultada; no datos integrados. |

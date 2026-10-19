@@ -2,7 +2,7 @@
 id: bucle-misiones
 type: diseno
 status: especificado-sin-implementar
-updated: 2026-10-14
+updated: 2026-10-19
 tags: [orbita, misiones]
 ---
 # Bucle y misiones
@@ -33,7 +33,7 @@ Desplazarse, observar, escanear, interactuar, recoger y reparar. Cada lugar de i
 
 Mostrar objetivo cumplido, observaciones, muestras entregadas, recursos utilizados, incidencias y explicación causal. Comparar con lo previsto sin calificar una simplificación educativa como certificación de una misión real.
 
-Las cifras de balance, fórmulas finales y contenido de la incidencia se definirán durante la ventana autorizada, después de revisar el enunciado completo.
+Las [esquemáticas de la demo](DEMO/GDD-DEMO.md) proponen fórmulas, una incidencia (INC-RELAY-01) y [valores provisionales](DEMO/PARAMETROS-DEMO.md) que encajan entre sí. Las cifras finales de balance se fijan durante la ventana autorizada, después de revisar el enunciado completo y de probar con jugadores.
 
 ## Avance por capítulos
 

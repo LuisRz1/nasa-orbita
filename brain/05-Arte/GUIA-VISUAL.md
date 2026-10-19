@@ -2,7 +2,7 @@
 id: guia-visual
 type: arte
 status: direccion-acordada
-updated: 2026-10-14
+updated: 2026-10-19
 tags: [orbita, arte]
 ---
 # Guía visual
@@ -29,6 +29,8 @@ Mapa en Tiled → exportación JSON → validación de capas y referencias. Spri
 Conservar archivos editables y registrar licencias. Los tamaños de tile y sprite se fijarán con la primera prueba de legibilidad, antes de producir el resto del contenido.
 
 Esta nota es una especificación. No se han producido sprites, mapas o una muestra visual del juego.
+
+La demo de hackathon se construye primero en [greybox gris y blanco](GREYBOX.md), con primitivas reemplazables por ID de entidad. Es temporal: esta dirección de pixel art y la paleta solar siguen vigentes para el arte final.
 
 ## LUMA y paleta estelar
 
